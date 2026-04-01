@@ -6,7 +6,7 @@ const form = document.getElementById("productForm");
 const productList = document.getElementById("productList");
 const totalSpan = document.getElementById("total");
 
-// Clase Producto (buena práctica para escalabilidad)
+// Clase Producto
 class Product {
     constructor(name, price) {
         this.id = Date.now();
